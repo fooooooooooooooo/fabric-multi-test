@@ -11,3 +11,4 @@ pluginManagement {
 rootProject.name = "multitest"
 
 include "api"
+include "submod"
