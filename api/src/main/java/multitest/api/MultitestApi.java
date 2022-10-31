@@ -1,7 +1,7 @@
 package multitest.api;
 
 public class MultitestApi {
-    public String hello() {
+    public static String hello() {
         return "hi";
     }
 }

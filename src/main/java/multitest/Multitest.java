@@ -10,8 +10,12 @@ public class Multitest implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        var message = new MultitestApi().hello();
+        var message = MultitestApi.hello();
 
         LOGGER.info(message + " from main mod");
+    }
+
+    public static String hello() {
+        return MultitestApi.hello() + "from main mod";
     }
 }
